@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="E:\WORKSPACE\Django Project\Projects\django-channels-chat-master\django-channels-chat-master\venv"
+VIRTUAL_ENV="C:\WORKSTATION\Github\OWN\ChatApp\venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

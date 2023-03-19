@@ -76,6 +76,8 @@ WSGI_APPLICATION = 'chat.wsgi.application'
 
 DATABASES = {
     'default': {
+        # 'ENGINE': 'django.db.backends.sqlite3',
+        # 'NAME': PROJECT_ROOT / 'db.sqlite3',
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'chat',
         'USER': 'root',
@@ -136,7 +138,7 @@ CHANNEL_LAYERS = {
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Dhaka'
 
 USE_I18N = True
 
