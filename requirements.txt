@@ -4,9 +4,9 @@ django-filter
 channels
 channels-redis
 pytz
-django==3.1.14 
+django
 Markdown 
-
+psycopg2
 
 # USER
 # admin
